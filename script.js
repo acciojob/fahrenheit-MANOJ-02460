@@ -1,7 +1,11 @@
 function toFahrenheit(celsius) {
- // Write your code here
-}
+ // Write your code here 
+  const celsiu = (fahrenheit-32)*5/9;
 
-// Do not change the code below
-const celsius = prompt("Enter Celsius:");
+  return parseFloat(celsiu.toFixed(2));
+	 
+} 
+
+// Do not change the code below 
+const celsius = prompt("Enter Celsius:"); 
 alert(toFahrenheit(Number(celsius)));
