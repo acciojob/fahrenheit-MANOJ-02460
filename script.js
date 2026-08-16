@@ -1,9 +1,7 @@
 function toFahrenheit(celsius) {
  // Write your code here 
-  const celsiu = (fahrenheit-32)*5/9;
-
-  return parseFloat(celsiu.toFixed(2));
-	 
+	const fahrenheit = (celsius *9/5)+32
+	return parseFloat(fahrenheit.toFixed(2));
 } 
 
 // Do not change the code below 
